@@ -1,0 +1,6 @@
+# Server-specific rules
+/PantryMSServer/node_modules
+/PantryMSServer/build
+/PantryMSServer/*.log
+
+.idea
