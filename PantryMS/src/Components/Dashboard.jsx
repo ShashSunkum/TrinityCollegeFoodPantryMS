@@ -129,15 +129,15 @@ const Dashboard = () => {
                             <li className="w-100">
                                 <Link to="/dashboard/category" className="nav-link px-0 align-middle text-white">
                                     <i className="bi-columns"></i>
-                                    <span className="ms-2 d-none d-sm-inline">Category</span>
+                                    <span className="ms-2 d-none d-sm-inline">Categories</span>
                                 </Link>
                             </li>
-                            <li className="w-100">
-                                <Link to="/dashboard/profile" className="nav-link px-0 align-middle text-white">
-                                    <i className="bi-person"></i>
-                                    <span className="ms-2 d-none d-sm-inline">Product Profile</span>
-                                </Link>
-                            </li>
+                            {/*<li className="w-100">*/}
+                            {/*    <Link to="/dashboard/profile" className="nav-link px-0 align-middle text-white">*/}
+                            {/*        <i className="bi-person"></i>*/}
+                            {/*        <span className="ms-2 d-none d-sm-inline">Product Profile</span>*/}
+                            {/*    </Link>*/}
+                            {/*</li>*/}
                             <li className="w-100" onClick={handleLogout}>
                                 <Link to="/" className="nav-link px-0 align-middle text-white">
                                     <i className="bi-power"></i>

@@ -94,7 +94,7 @@ const Home = () => {
                         <thead>
                         <tr>
                             <th>Email</th>
-                            <th>Action</th>
+                            <th>Name & Position</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -102,8 +102,9 @@ const Home = () => {
                             <tr key={admin.id || index}> {/* Use admin.id if available, otherwise fall back to index */}
                                 <td>{admin.email}</td>
                                 <td>
-                                    <button className='btn btn-warning btn-sm me-2'>Edit</button>
-                                    <button className='btn btn-danger btn-sm'>Delete</button>
+                                    {/*<button className='btn btn-warning btn-sm me-2'>Edit</button>*/}
+                                    {/*<button className='btn btn-danger btn-sm'>Delete</button>*/}
+                                    Hayley Berliner - Food'N Stuff Pantry Manager
                                 </td>
                             </tr>
                         ))}
