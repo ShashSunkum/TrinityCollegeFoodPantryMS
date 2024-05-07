@@ -1,35 +1,40 @@
 # Trinity College Food Pantry Management System
 
-## Project Overview
+## Project Overview (Complete)
 
-(Insert overview)  
+This application is an inventory management system designed for Trinity College's on campus Food Pantry, Food n' Stuff. With a front end and persistent database, it will allow for staff to categorize and track inventory and replace the Excel spreadsheet that they currently use for inventory. The project also includes a feature that allows users to generate recipes that use ingredients currently avaliable in the database.   
+   
 Team members: Anupam Khargharia, George Zack, Meti Habtegiorgis, Mia Creane, and Shash Sunkum
 
 ## User Requirements
 
 ### Target Audience
 
-(Describe target audience).
+The target audience for this application is Food Pantry staff.
 
-### User Stories:
+### User Stories
 
-- User story 1
-- User story 2
+- As the Manager of Food n' Stuff at Trinity College, I want to keep track of the inventory through an online system so that I can ensure a reliable distribution of food items, reduce waste by managing stock more effectively, and forecast future needs based on consumption patterns.
+- As a patron of the pantry, I want to be able to generate recipes using ingredients from the pantry so that I can plan a delicious meal with the items that I have avaliable to me.
 
 ## Functional Requirements
 
 ### Core Features
-- Feature 1:
-- Feature 2:
+- Feature 1: Item Management
+   - Ability to add, edit, and delete products.
+   - Categorization and tagging of products for easy search and filtering.
+- Feature 2: Cost Calculator
+   - Ability to see total price of inventory.
 
 ### Additional Features
-- Feature 1:
+- Feature 1: Recipe Generator
+   - Ability to generate recipes with items from inventory.
 
 ## Non-Functional Requirements
 
-Usability:  
-Reliability:  
-Security:  
+Usability: We want the application to be easy to use and aesthetically pleasing.
+Reliability: We want the application to run as expected and not display any confusing error messages to users.
+Security: We want the application to authenticate users via a login to keep unauthorized users from editting the data.
 
 ## Technical Specifications
 
@@ -40,7 +45,7 @@ Security:
 
 ## Milestones and Deliverables
 
-example:  
+example:
 - Week 1-2: Project planning, research, and initial design
 - Week 3-4: Core feature development
 - Week 5-6: Additional feature development and initial testing
@@ -49,9 +54,9 @@ example:
 
 ## Collaboration Plan
 
-- Communication Tools: How the team will communicate (e.g., Slack, email, etc.).
-- Version Control: Use of Git or similar tools for source code management.
-- Task Allocation: How tasks will be divided among team members.
+- Communication Tools: Teammates used text (and Slack?) for written communication and Zoom for video meetings.
+- Version Control: Project was developed on Github, using Git as version control.
+- Task Allocation: Shash focused on the pantry feature, Anupam did the recipe generator, Zack handled testing and CI/CD, and Meti and Mia wrote documentation and made presentation.
 
 ## Project Setup
 
