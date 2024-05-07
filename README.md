@@ -25,6 +25,7 @@ The target audience for this application is Food Pantry staff.
    - Categorization and tagging of products for easy search and filtering.
 - Feature 2: Cost Calculator
    - Ability to see total price of inventory.
+   - Automatically updates when new items are added or inventory quantity is changed.
 
 ### Additional Features
 - Feature 1: Recipe Generator
