@@ -33,9 +33,9 @@ The target audience for this application is Food Pantry staff.
 
 ## Non-Functional Requirements
 
-Usability: We want the application to be easy to use and aesthetically pleasing.
-Reliability: We want the application to run as expected and not display any confusing error messages to users.
-Security: We want the application to authenticate users via a login to keep unauthorized users from editting the data.
+- Usability: We want the application to be easy to use and aesthetically pleasing.  
+- Reliability: We want the application to run as expected and not display any confusing error messages to users.  
+- Security: We want the application to authenticate users via a login to keep unauthorized users from editting the data.  
 
 ## Technical Specifications
 
