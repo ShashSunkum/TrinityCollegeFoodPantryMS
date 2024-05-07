@@ -64,6 +64,9 @@ Security: We want the application to authenticate users via a login to keep unau
 
 ## Component Diagram
 
+![food-pantry-diagram](https://github.com/ShashSunkum/TrinityCollegeFoodPantryMS/assets/124894058/a1c6517f-6e1c-45f2-9ad9-9f86064f562d)
+
+
 ## Project Setup
 
 This repository contains both the front-end and server-side code for the Trinity College Food Pantry Management System. Follow the instructions below to set up both parts of the project on your local machine.
