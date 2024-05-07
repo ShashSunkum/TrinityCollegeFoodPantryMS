@@ -1,6 +1,6 @@
 # Trinity College Food Pantry Management System
 
-## Project Overview (Complete)
+## Project Overview
 
 This application is an inventory management system designed for Trinity College's on campus Food Pantry, Food n' Stuff. With a front end and persistent database, it will allow for staff to categorize and track inventory and replace the Excel spreadsheet that they currently use for inventory. The project also includes a feature that allows users to generate recipes that use ingredients currently avaliable in the database.   
    
@@ -38,25 +38,31 @@ Security: We want the application to authenticate users via a login to keep unau
 
 ## Technical Specifications
 
-- Programming Languages: (Specify languages)
-- Development Tools and Environments: (List IDEs, version control systems, etc.)
-- Database and Storage: (Describe database systems or storage solutions)
+- Programming Languages: Python, CSS, javascript
+- Development Tools and Environments: Git, (List IDEs)
+- Database and Storage: SQL database
 - External APIs and Libraries: (List any external APIs or libraries to be used)
 
 ## Milestones and Deliverables
 
-example:
-- Week 1-2: Project planning, research, and initial design
-- Week 3-4: Core feature development
-- Week 5-6: Additional feature development and initial testing
-- Week 7: Final testing and bug fixing
-- Week 8: Final presentation and submission
+- Week 1-2: Choose project and planning
+   - Milestone: Roles assigned and intial design decided on.
+- Week 3-4: Microservice Development
+   - Milestone: Core functionality of both microservices implemented.
+- Week 5-6: Database Integration and Persistence
+   - Milestone: Database integration with microservice, data persistence achieved.
+- Week 7: Integration and Testing
+   - Milestone: Microservices integrated and basic functionality tested.
+- Week 8: Documentation and Final Presentation
+   - Milestone: Presentation complete and application fully documented.
 
 ## Collaboration Plan
 
-- Communication Tools: Teammates used text (and Slack?) for written communication and Zoom for video meetings.
+- Communication Tools: Teammates used text and Slack for written communication and Zoom for video meetings.
 - Version Control: Project was developed on Github, using Git as version control.
 - Task Allocation: Shash focused on the pantry feature, Anupam did the recipe generator, Zack handled testing and CI/CD, and Meti and Mia wrote documentation and made presentation.
+
+## Component Diagram
 
 ## Project Setup
 
