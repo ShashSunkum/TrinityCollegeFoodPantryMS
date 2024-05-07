@@ -194,19 +194,19 @@ function App() {
               </CardBody>
             </Card>
         )}
-        <footer style={{
-          width: '100%',
-          position: 'sticky',
-          bottom: 0,
-          textAlign: 'center',
-          borderTop: '1px dashed #888',
-          backgroundColor: '#000',
-          color: '#fff',
-          padding: '1rem 0',
-          boxShadow: '0 -2px 10px rgba(0, 0, 0, 0.5)'
-        }}>
-          Created by the FreeBytes Team - CPSC 415: Large Scale Dev
-        </footer>
+        {/*<footer style={{*/}
+        {/*  width: '100%',*/}
+        {/*  position: 'sticky',*/}
+        {/*  bottom: 0,*/}
+        {/*  textAlign: 'center',*/}
+        {/*  borderTop: '1px dashed #888',*/}
+        {/*  backgroundColor: '#000',*/}
+        {/*  color: '#fff',*/}
+        {/*  padding: '1rem 0',*/}
+        {/*  boxShadow: '0 -2px 10px rgba(0, 0, 0, 0.5)'*/}
+        {/*}}>*/}
+        {/*  Created by the FreeBytes Team - CPSC 415: Large Scale Dev*/}
+        {/*</footer>*/}
       </div>
   );
 }

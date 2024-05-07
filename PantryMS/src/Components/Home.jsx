@@ -53,7 +53,7 @@ const Home = () => {
     }
     return (
         <div className="container-fluid">
-            <div className="d-flex justify-content-around mt-3">
+            <div className="d-flex justify-content-around mt-3" style={{paddingTop: "25px"}}>
                 <div className="card px-3 pt-4 pb-4 border shadow-sm w-25"
                      style={{borderRadius: '20px', backgroundColor: '#f9f9f9'}}>
                     <div className="text-center pb-2">
@@ -87,7 +87,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="row justify-content-center mt-4">
+            <div className="row justify-content-center mt-4" style={{paddingTop: "30px"}}>
                 <div className="col-8">
                     <h3>List of Admins</h3>
                     <table className="table">
@@ -112,6 +112,16 @@ const Home = () => {
 
                     </table>
                 </div>
+            </div>
+            <div style={{textAlign: "center", paddingTop: "40px"}}>
+                <h1>AI Recipe Generator</h1>
+                <iframe
+                    src="http://localhost:5174"
+                    width="1200"
+                    height="1400"
+                    allow="autoplay; encrypted-media"
+                    title="Embedded Page"
+                ></iframe>
             </div>
         </div>
     )
