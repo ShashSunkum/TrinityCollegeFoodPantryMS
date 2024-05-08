@@ -111,6 +111,8 @@ This repository contains both the front-end and server-side code for the Trinity
 
 ### Setting Up the Server Side
 
+#### Server for UI
+
 1. Navigate to the Server directory:
    ```bash
    cd ../PantryMSServer
@@ -134,6 +136,27 @@ This repository contains both the front-end and server-side code for the Trinity
 5. To run the server:
    ```bash
    node index.js
+   ```
+
+ #### Recipe Generator Scripts
+
+1. Navigate to the Server directory:
+   ```bash
+   cd ../recipe-service/openai-flask
+   ```
+2. Setting up Virtual Environment:
+   ```bash
+   source flaskenv/bin/activate
+   ```
+
+3. Install Node.js (if not already installed or if you need a specific version for the server):
+   ```bash
+   pip3 install Flask flask_restx flask_cors openai --break-system-packages
+   ```
+   
+4. To run the server:
+   ```bash
+   python3 recipeApp.py
    ```
 
 ## Additional Information
