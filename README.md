@@ -39,10 +39,11 @@ The target audience for this application is Food Pantry staff.
 
 ## Technical Specifications
 
-- Programming Languages: Python, CSS, javascript
-- Development Tools and Environments: Git, (List IDEs)
+- Programming Languages: Python, HTML, CSS, Javascript
+- Frameworks: Flask, React, Node.js, Tailwind CSS
+- Development Tools and Environments: Git, IntelliJ IDEA, VSCode
 - Database and Storage: SQL database
-- External APIs and Libraries: (List any external APIs or libraries to be used)
+- External APIs and Libraries: OPENAI API
 
 ## Milestones and Deliverables
 
