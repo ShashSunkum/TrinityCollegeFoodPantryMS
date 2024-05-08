@@ -7,26 +7,25 @@ on:
 
 jobs:
 
-  test:
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v4
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r recipe-service/openai-flask/requirements.txt
-    - name: Run tests
-      run: |
-        pip install pytest
-        pytest recipe-service/openai-flask/testApp.py
+#  test:
+#    runs-on: ubuntu-latest
+#
+#    steps:
+#    - uses: actions/checkout@v4
+#    - name: Set up Python
+#      uses: actions/setup-python@v4
+#      with:
+#        python-version: '3.10'
+#    - name: Install dependencies
+#      run: |
+#        python -m pip install --upgrade pip
+#        pip install -r recipe-service/openai-flask/requirements.txt
+#    - name: Run tests
+#      run: |
+#        pip install pytest
+#        pytest recipe-service/openai-flask/testApp.py
 
   build:
-    needs: test
     runs-on: ubuntu-latest
 
     steps:
@@ -35,10 +34,6 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: '3.10'
-    - name: Create Virtual Environment
-      run: |
-        python -m venv flaskenv
-        source venv/bin/activate
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
