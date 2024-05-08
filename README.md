@@ -82,7 +82,9 @@ This repository contains both the front-end and server-side code for the Trinity
 - Node.js
 - npm (Node Package Manager)
 
-### Setting Up the Frontend
+### Setting Up the Frontend (Use Separate Terminals for each segment)
+
+#### Setting Main Website
 
 1. Navigate to the Frontend directory:
    ```bash
@@ -109,7 +111,34 @@ This repository contains both the front-end and server-side code for the Trinity
    npm run dev
    ```
 
-### Setting Up the Server Side
+#### Setting up AI Recipe Generator frontend
+
+1. Navigate to the Frontend directory:
+   ```bash
+   cd recipe-service/website
+   ```
+
+2. Install Node.js (this will install the latest version compatible with the project):
+   ```bash
+   nvm install node
+   ```
+
+3. Install npm using Homebrew:
+   ```bash
+   brew install npm
+   ```
+
+4. Install all dependencies for the front-end:
+   ```bash
+   npm install
+   ```
+
+5. To start the front-end development server:
+   ```bash
+   npm run dev
+   ```
+
+### Setting Up the Server Side (Use Separate Terminals for each segment)
 
 #### Server for UI
 
