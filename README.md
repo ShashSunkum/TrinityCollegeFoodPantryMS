@@ -67,7 +67,7 @@ The target audience for this application is Food Pantry staff.
 - Version Control: Project was developed on Github, using Git as version control.
 - Task Allocation: Shash focused on the pantry feature, Anupam did the recipe generator, Zack handled testing and CI/CD, and Meti and Mia wrote documentation and made presentation.
 
-## Component Diagram
+## Architecture Diagram
 
 ![food-pantry-diagram](https://github.com/ShashSunkum/TrinityCollegeFoodPantryMS/assets/124894058/a1c6517f-6e1c-45f2-9ad9-9f86064f562d)
 
