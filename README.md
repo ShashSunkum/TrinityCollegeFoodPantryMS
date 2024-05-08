@@ -30,6 +30,9 @@ The target audience for this application is Food Pantry staff.
 ### Additional Features
 - Feature 1: Recipe Generator
    - Ability to generate recipes with items from inventory.
+- Feature 2 (Unimplemented): Non-Admin accounts
+   - Ability for non-admin users to create accounts.
+   - Non-admin accounts can use the recipe generator and view inventory, but not edit inventory.
 
 ## Non-Functional Requirements
 
