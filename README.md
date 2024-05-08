@@ -70,8 +70,7 @@ The target audience for this application is Food Pantry staff.
 
 ## Architecture Diagram
 
-![food-pantry-diagram](https://github.com/ShashSunkum/TrinityCollegeFoodPantryMS/assets/124894058/a1c6517f-6e1c-45f2-9ad9-9f86064f562d)
-
+![food-pantry-architecture-diagram](https://github.com/ShashSunkum/TrinityCollegeFoodPantryMS/assets/124894058/424e4df0-4406-4ad7-b50d-d8d2e8f02e18)
 
 ## Project Setup
 
